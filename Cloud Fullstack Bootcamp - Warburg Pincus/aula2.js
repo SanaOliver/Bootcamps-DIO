@@ -11,7 +11,6 @@ teste();
 teste();
 teste2('Rosana');
 teste2 ('Oliveira')
-
 function main(){
 const quadrado = teste3(10);
 console.log('O quadrado de 10 é: ' + quadrado)   

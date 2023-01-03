@@ -7,6 +7,7 @@ const peso = 60;
 const altura = 1.75;
 const imc = (calcularIMC (peso, altura)).toFixed(2);
 console.log(imc);
+classificacaoIMC(imc)
 if ( imc < 18.5){
     console.log('Abaixo do Peso.');
 } else if ( imc>=18.5 && imc <25){
